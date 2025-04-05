@@ -1,0 +1,10 @@
+name: voxEnchants
+version: '1.0-SNAPSHOT'
+main: io.github.overo3.voxEnchants.Main
+api-version: '1.21'
+bootstrapper: io.github.overo3.voxEnchants.Bootstrap
+dependencies:
+  server:
+    Leveling:
+      load: AFTER
+      required: false
